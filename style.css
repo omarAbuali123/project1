@@ -9,17 +9,18 @@
 }
 
 
+/*navbar*/
+
 
 #nav1{
     background-color: #f0f0f0;
     width: 100%;
-    position: fixed;
+    position: fixed;/*تثبت النصر*/
     z-index: 999;
-    display: flex;
-    justify-content: space-between;
+    display: flex;/* اتحكم ب عنصر يمين وشمال*/
+    justify-content: space-between;/* لمسافه بين العنصرين*/
     align-items: center;
     padding: 10px 200px ;
-
 }
 
 .logo{
@@ -37,7 +38,6 @@
     padding-left: 30px;
 }
 
-
 .navigation a:hover{
     color: #7e16b3;
 }
@@ -46,6 +46,7 @@ section{
     padding: 100px 200px;
 
 }
+
 
 /*home*/
 
@@ -80,11 +81,10 @@ section{
     font-weight: 600;
     display: inline-block;
     padding:0.9375em 2.1875em;
-    letter-spacing: 1px;
+    letter-spacing: 1px;  /*تحدد المسافه الافقيه بين الاحرف*/
     border-radius: 15px;
     margin-bottom: 40px;
     transition: 0.5s ease;
-
 }
 
 
@@ -98,7 +98,7 @@ section{
 
 
 .About p {
-    column-gap: 20px;
+    column-gap: 20px;/*المسافه بين الاعمده */
     background-color: #f0f0f0;
     border-radius: 10px;
     padding: 50px 50px;
@@ -108,12 +108,12 @@ section{
 
 
 .About h2 {
-    display: flex;
+    display: flex; 
     justify-content: center;
     color: #3a6cf4;
     font-size: 2.2em;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 30px;/*الهامش الخارجي السفلي*/
 }
 
 
@@ -125,7 +125,7 @@ section{
 }
 
 .SKILLS{
-   width: fit-content;
+    width: fit-content;
     background-color: #f0f0f0;
     border-radius: 10px;
     padding: 30px;
@@ -191,8 +191,8 @@ section{
 .content{
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: row;/*ترتب العناصر في صف من يسار لليمين*/
+    flex-wrap: wrap;/*تكون مرنه حسب الحاجه*/
     margin-top: 30px;
 }
 
@@ -202,7 +202,7 @@ section{
     border: 1px solid #100e0e;
     min-height: 14em;
     width: 21%;
-    overflow: hidden;
+    overflow: hidden;/*يخفي اي محتوى يتجاوز لحجم*/
     border-radius: 10px;
     margin: 20px;
     transition: 0.7s ease;
@@ -219,7 +219,7 @@ section{
 }
 
 .project-card:hover .project-image{
-opacity: 0.7;
+    opacity: 0.7;/*لتاثير*/
 }
 
 
